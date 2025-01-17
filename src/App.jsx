@@ -21,7 +21,7 @@ function App() {
           <div className="container mx-auto px-4 py-3 flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img 
-                src="/Krumble.jpg" 
+                src="/Krumble.png" 
                 alt="Krumble Logo" 
                 className="h-10 w-auto object-contain hover:scale-105 transition-transform"
               />
@@ -44,7 +44,7 @@ function App() {
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur opacity-30 group-hover:opacity-40 transition duration-1000"></div>
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="/Krumble.jpg" 
+                  src="/Krumble.png" 
                   alt="Krumble App Preview" 
                   className="w-full h-auto rounded-xl shadow-2xl transform group-hover:scale-[1.01] transition duration-300"
                 />
@@ -114,7 +114,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <img 
-                    src="/Krumble.jpg" 
+                    src="/Krumble.png" 
                     alt="Krumble Logo" 
                     className="h-12 w-auto object-contain hover:scale-105 transition-transform"
                   />
