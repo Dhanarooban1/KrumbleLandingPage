@@ -208,7 +208,7 @@ export default function PaymentSection() {
                          hover:bg-[#1ed760] hover:scale-[1.02]
                          disabled:opacity-70 disabled:cursor-not-allowed disabled:scale-100"
             >
-              {loading ? "⏳ Preparing payment…" : "🔒 Pay ₹49 · Reserve My Spot"}
+              {loading ? "⏳ Preparing payment…" : "🔒 Pay ₹100 · Reserve My Spot"}
             </button>
             <p className="text-[0.72rem] text-[#888] mt-1">
               Razorpay · UPI / Card / NetBanking · Instant refund if we don't ship
@@ -217,7 +217,7 @@ export default function PaymentSection() {
         </div>
 
         <p className="text-[0.78rem] text-[#888] max-w-[380px] mx-auto leading-[1.65]">
-          ⚡ Your ₹49 goes directly toward building WishFlow. This is an honest
+          ⚡ Your ₹9 goes directly toward building WishFlow. This is an honest
           pre-order — not a subscription, not a trick. If we don't ship in 90 days,
           you get it all back.
         </p>

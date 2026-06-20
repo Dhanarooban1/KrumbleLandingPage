@@ -12,7 +12,7 @@ export default function Navbar() {
                    text-[0.82rem] font-bold cursor-pointer tracking-[0.2px]
                    transition-all duration-150 hover:bg-[#1ed760] hover:scale-[1.03]"
       >
-        Get Founder Access — ₹49
+        Get Founder Access — ₹100
       </button>
     </nav>
   );

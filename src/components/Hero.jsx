@@ -44,7 +44,7 @@ export default function Hero() {
                        shadow-[0_0_40px_rgba(29,185,84,0.22)]
                        transition-all duration-150 hover:bg-[#1ed760] hover:scale-[1.04]"
           >
-            One Good Decision Today — ₹49
+            One Good Decision Today — ₹100
           </button>
           <span className="text-[0.78rem] text-[#888]">Razorpay secured</span>
         </div>
