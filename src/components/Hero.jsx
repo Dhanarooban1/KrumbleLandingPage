@@ -6,16 +6,7 @@ export default function Hero() {
     <section className="hero-glow min-h-screen flex flex-col items-center
                         justify-center px-6 py-20 text-center relative">
       <div className="relative flex flex-col items-center w-full">
-
-        {/* Pill */}
-        <div className="inline-flex items-center gap-[7px] bg-[rgba(29,185,84,0.1)]
-                        border border-[rgba(29,185,84,0.28)] rounded-full px-[14px]
-                        py-[5px] text-[0.72rem] font-semibold text-[#1DB954]
-                        tracking-[0.8px] uppercase mb-7">
-          <span className="animate-blink w-[6px] h-[6px] rounded-full bg-[#1DB954]" />
-          Launching Soon · 100 Founder Spots Only
-        </div>
-
+        
         {/* Headline */}
         <h1 className="text-[clamp(2.6rem,6vw,4.8rem)] font-black leading-[1.05]
                        tracking-[-2.5px] mb-5 max-w-[720px]">
