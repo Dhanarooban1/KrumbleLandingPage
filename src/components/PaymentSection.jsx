@@ -12,11 +12,9 @@ const CONFIG = {
 };
 
 const PERKS = [
-  "Lifetime Pro — never pay again",
   "AI wish + digital gift for every occasion",
   "Day 1 launch access",
-  "Direct say in features we build",
-  "Your name on the Founders Wall",
+  "Contribute to features we build",
   "Full refund if we don't ship in 90 days",
 ];
 
