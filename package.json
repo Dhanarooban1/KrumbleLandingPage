@@ -13,10 +13,12 @@
     "@react-three/drei": "^9.121.2",
     "@react-three/fiber": "^8.17.12",
     "@tailwindcss/vite": "^4.3.1",
+    "firebase": "^12.15.0",
     "framer-motion": "^11.18.1",
     "lucide-react": "^0.471.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.0",
     "tailwindcss": "^4.3.1",
     "three": "^0.172.0"
   },
