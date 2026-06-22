@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+const API_BASE = import.meta.env.VITE_API_URL;
 export default function Hero() {
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState({
@@ -29,11 +29,13 @@ export default function Hero() {
   }
   setLoading(true);
   try {
-    const response = await fetch("http://localhost:5000/saveuser", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form),
-    });
+    const response = await fetch(`${API_BASE}/saveuser`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(form),
+});
     const data = await response.json();
 
     if (!response.ok) {
