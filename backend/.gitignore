@@ -1,0 +1,6 @@
+# Ignore an entire folder (always end with a trailing slash)
+node_modules/
+
+# Ignore all files ending with a specific extension
+*.log
+*.env

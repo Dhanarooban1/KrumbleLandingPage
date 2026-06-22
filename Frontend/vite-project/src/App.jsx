@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero  from "./components/Hero";
 import PainVsSolution from "./components/Painsolution";
-import GoogleAuth from "./components/GoogleAuth";
 import Footer  from "./components/Footer";
 import "./index.css";
 
@@ -26,10 +25,8 @@ export default function App() {
     <div className="bg-[#0e0e0e] text-white font-sans overflow-x-hidden leading-relaxed">
       <Navbar />
       <Hero />
-      <PainVsSolution />
-      <GoogleAuth/>
+      <PainVsSolution />  
       <Footer />
     </div>
   );
 }
-
