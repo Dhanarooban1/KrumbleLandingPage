@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Navbar from "./components/Navbar";
-import Hero  from "./components/Hero";
-import PainVsSolution from "./components/Painsolution";
-import Footer  from "./components/Footer";
+import Navbar from "./components/Navbar.jsx";
+import Hero  from "./components/Hero.jsx";
+import PainVsSolution from "./components/Painsolution.jsx";
+import Footer  from "./components/Footer.jsx";
 import "./index.css";
 
 function initScrollReveal() {
