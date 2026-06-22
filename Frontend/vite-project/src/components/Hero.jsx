@@ -65,13 +65,6 @@ export default function Hero() {
         className="min-h-screen flex flex-col items-center justify-center px-6 py-24 text-center"
         style={{ background: "#0a0a0a" }}
       >
-        {/* Badge */}
-        <div className="flex items-center gap-2 border border-[#1DB954]/60 text-[#1DB954] text-[10px] font-bold tracking-[1.8px] uppercase px-4 py-[7px] rounded-full mb-10">
-          <span className="w-[6px] h-[6px] rounded-full bg-[#1DB954] animate-pulse inline-block" />
-          Launching Soon · 100 Founder Spots Only
-        </div>
-
-        {/* Headline */}
         <h1
           className="font-black text-white leading-[1.02] tracking-[-2.5px] mb-6"
           style={{ fontSize: "clamp(3.2rem, 9vw, 5.8rem)" }}
@@ -137,23 +130,11 @@ export default function Hero() {
               ✕
             </button>
 
-            {/* Icon */}
-            <div className="flex justify-center mb-5">
-              <div
-                className="w-[52px] h-[52px] rounded-full flex items-center justify-center"
-                style={{ background: "rgba(29,185,84,0.12)", border: "1px solid rgba(29,185,84,0.2)" }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="#1DB954">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
-                </svg>
-              </div>
-            </div>
-
-            {/* Title */}
+          
             <h2 className="text-white text-[21px] font-black text-center tracking-[-0.5px] mb-1">
               Join WishFlow
             </h2>
-            <p className="text-[#555] text-[13px] text-center mb-7">
+            <p className="text-lime-500 text-[13px] text-center mb-7">
               Enter your details to continue
             </p>
 
